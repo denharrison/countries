@@ -171,4 +171,54 @@ a {
   font-weight: 800;
   line-height: 25px;
   letter-spacing: 0px;
+}
+.country-info-group {
+  flex-basis: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--colors-grey-950, rgb(17, 21, 23));
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    margin: 0 40px;
+    margin-top: 48px;
+  }
+  .header {
+    padding: 0 41px;
+  }
+  .header__title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header-container__text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .header-container__icon {
+    width: 12px;
+    height: 11px;
+  }
+  .country-cards {
+    margin: 48px 84px;
+    height: auto;
+  }
+  .country-info {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 16px;
+  }
+  .country-info-group {
+    flex-basis: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .filter-option-container {
+    right: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
