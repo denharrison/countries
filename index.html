@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Countries</title>
+</head>
+<body>
+<main class="main-container">
+   <header class="header">
+    <h1 class="header__title">Where in the world?</h1>
+   <a href="darkmode.html"><div class="header-container">
+   <svg class="header-container__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="none" d="M0 0h20v20H0z"/><path d="M0 0h20v20H0z"/><path fill="#FFF" fill-rule="evenodd" d="M13.553 13.815c-3.884 0-7.034-2.887-7.034-6.447 0-1.343.448-2.586 1.212-3.618-3.04.945-5.231 3.581-5.231 6.688 0 3.9 3.45 7.062 7.704 7.062 3.389 0 6.266-2.007 7.296-4.796a7.458 7.458 0 0 1-3.947 1.111Z"/><path stroke="#111517" stroke-width="1.25" d="M6.52 7.368c0-1.343.447-2.586 1.211-3.618-3.04.945-5.231 3.581-5.231 6.688 0 3.9 3.45 7.062 7.704 7.062 3.389 0 6.266-2.007 7.296-4.796a7.458 7.458 0 0 1-3.947 1.111c-3.884 0-7.034-2.887-7.034-6.447Z"/></svg>
+     <p class="header-container__text">Dark Mode</p>
+    </div> </a> 
+   </header>
+
+<nav class="nav-section center">
+ <form class="nav-section__search">
+    <div class="search-container">
+  <input class="search-container__input" required placeholder="Search for a country…" type="text">
+  <svg class="search-container__icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="17.5" fill="none"><path fill="#7F7F7F" fill-rule="evenodd" d="M12.5 11h-.8l-.3-.3c1-1.1 1.6-2.6 1.6-4.2C13 2.9 10.1 0 6.5 0S0 2.9 0 6.5 2.9 13 6.5 13c1.6 0 3.1-.6 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5ZM2 6.5C2 9 4 11 6.5 11S11 9 11 6.5 9 2 6.5 2 2 4 2 6.5Z"/></svg>
+    </div>
+</form>
+
+ <div class="filter-container">
+  <p class="filter-container__text">Filter by Region</p>
+  <svg class="filter-container__icon" xmlns="http://www.w3.org/2000/svg" width="9" height="5.55" fill="none" viewBox="0 0 9 5.55"><path fill="#000" fill-rule="evenodd" d="M7.95 0 4.5 3.45 1.05 0 0 1.05l4.5 4.5L9 1.05z"/></svg>
+  </div>
+ </nav>
+
+    <nav class="filter-option-container">
+    <div class="list-section">
+        <p class="list-section__text">Africa</p>
+        <p class="list-section__text">America</p>
+        <p class="list-section__text">Asia</p>
+        <p class="list-section__text">Europe</p>
+        <p class="list-section__text">Oceania</p>
+    </div>
+    </nav>
+</nav>
+
+
+ <section class="country-cards">
+
+<div class="country-card">
+    <img class="country-card__img" src="/Image/Flag_of_Germany.png" alt="Germany flag">
+    <div class="country-info">
+    <p class="country-info__text">Germany</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 81,770,900</p>
+        <p class="country-info-group__text"><span>Region:</span> Europe</p>
+        <p class="country-info-group__text"><span>Capital:</span> Berlin</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+<img class="country-card__img" src="/Image/Flag_of_United States.png" alt="USA flag"> 
+<div class="country-info">
+    <p class="country-info__text">United States of America</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 323,947,000</p>
+        <p class="country-info-group__text"><span>Region:</span> Americas</p>
+        <p class="country-info-group__text"><span>Capital:</span> Washington, D.C.</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+    <img class="country-card__img" src="/Image/Flag_of_Brazil.png" alt="Brazil flag">
+ <div class="country-info">
+    <p class="country-info__text">Brazil</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 206,135,893</p>
+        <p class="country-info-group__text"><span>Region:</span> Americas</p>
+        <p class="country-info-group__text"><span>Capital:</span> Brasília</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+<img class="country-card__img" src="/Image/Flag_of_Island.png" alt="Iceland flag">
+ <div class="country-info">
+    <p class="country-info__text">Iceland</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 334,300</p>
+        <p class="country-info-group__text"><span>Region:</span> Europe</p>
+        <p class="country-info-group__text"><span>Capital:</span> Reykjavík</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+ <img class="country-card__img"  src="/Image/Flag_of_Afghanistan.png" alt="Afghanistan flag">
+ <div class="country-info">
+    <p class="country-info__text">Afghanistan</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 27,657,145</p>
+        <p class="country-info-group__text"><span>Region:</span> Asia</p>
+        <p class="country-info-group__text"><span>Capital:</span> Kabul</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+    <img class="country-card__img" src="/Image/Flag_of_Åland Islands.png" alt="Åland Islands flag">
+ <div class="country-info">
+    <p class="country-info__text">Åland Islands</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 28,875</p>
+        <p class="country-info-group__text"><span>Region:</span> Europe</p>
+        <p class="country-info-group__text"><span>Capital:</span> Mariehamn</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+ <img class="country-card__img" src="/Image/Flag_of_Albania.png" alt="Albania flag">
+ <div class="country-info">
+    <p class="country-info__text">Albania</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 2,886,026</p>
+        <p class="country-info-group__text"><span>Region:</span> Europe</p>
+        <p class="country-info-group__text"><span>Capital:</span> Tirana</p>
+    </div>
+ </div>   
+</div>
+
+<div class="country-card">
+    <img class="country-card__img" src="/Image/Flag_of_Algeria.png" alt="Algeria flag">
+    <div class="country-info">
+    <p class="country-info__text">Algeria</p>
+    <div class="country-info-group">
+        <p class="country-info-group__text"> <span>Population:</span> 40,400,000</p>
+        <p class="country-info-group__text"><span>Region:</span> Africa</p>
+        <p class="country-info-group__text"><span>Capital:</span> Algiers</p>
+    </div>
+ </div>   
+</div>
+
+
+ </section>
+
+</main>
+</body>
+</html>
