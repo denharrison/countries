@@ -1,0 +1,63 @@
+@media (max-width: 767px) {
+
+.center{
+    margin: 0 16px;
+    margin-top: 24px;
+}
+
+    .header{
+     padding: 0 16px;
+     gap: 40px;
+
+        &__title{
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+    }
+
+    .header-container{
+        &__text{
+         font-size: 12px;
+         line-height: 16px;
+    }
+
+         &__icon{
+         width: 16px;
+         height: 16px;
+    }
+
+    }
+
+.nav-section {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+
+
+}
+
+ .search-container{
+     width: 343px;
+     height: 48px;    
+ }
+
+.filter-container{
+    height: 48px;
+
+}
+
+.country-cards{
+   gap: 40px;
+   margin: 65px 55px;
+   margin-top: 32px;
+   height: auto;
+
+}
+
+.filter-option-container {
+   left: 18px;
+   right: 0;
+}
+
+}
