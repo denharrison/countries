@@ -5,8 +5,17 @@
     padding: 0;
 }
 
+.center{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 span{
     font-weight: 600;
+}
+
+a{
+    text-decoration: none; 
 }
 
 @import 'header';

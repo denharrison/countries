@@ -37,13 +37,13 @@ margin-left: 80px;
 }
 
 .filter-container{
+position: relative;
 display: flex;
 justify-content: space-around;
 align-items: center;
 border-radius: 5px;
 box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
 background:  $Background-lightColor;
-margin-right: 80px;
 width: 200px;
 
   &__text{
@@ -60,4 +60,33 @@ width: 200px;
   height: 5.25px;  
   }
 
+}
+
+.filter-option-container{
+  position: absolute;
+  margin-top: 8px;
+  right: 80px;
+  width: 200px;
+  height: 164px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  background: $Background-lightColor;
+
+}
+
+.list-section{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+  gap: 8px;
+
+    &__text{
+      color: $Light-theme-color-text;
+      font-family: Nunito Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0px;
+  
+  }
 }

@@ -3,8 +3,17 @@
   padding: 0;
 }
 
+.center {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
 span {
   font-weight: 600;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -76,13 +85,13 @@ span {
 }
 
 .filter-container {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 5px;
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
   background: rgb(255, 255, 255);
-  margin-right: 80px;
   width: 200px;
 }
 .filter-container__text {
@@ -96,6 +105,32 @@ span {
 .filter-container__icon {
   width: 9px;
   height: 5.25px;
+}
+
+.filter-option-container {
+  position: absolute;
+  margin-top: 8px;
+  right: 80px;
+  width: 200px;
+  height: 164px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+}
+
+.list-section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+  gap: 8px;
+}
+.list-section__text {
+  color: rgb(17, 21, 23);
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
 }
 
 .country-cards {
@@ -118,6 +153,7 @@ span {
   background: rgb(255, 255, 255);
 }
 .country-card__img {
+  height: 160px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
