@@ -1,0 +1,25 @@
+@import 'vars';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+span{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none; 
+}
+
+@import 'header';
+@import 'nav';
+@import 'country-cards';
+@import 'tablet';
+@import 'mobile';

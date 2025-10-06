@@ -1,0 +1,55 @@
+
+.country-cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 72px;
+   height: 744px;
+   margin: 48px 84px;
+
+}
+
+.country-card{
+    height: 336px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-radius: 5px;
+    box-shadow: $Cards-shadow-color;
+    background:$Background-lightColor;
+    
+    &__img{
+        height: 160px;
+        border-top-left-radius: 5px; 
+        border-top-right-radius: 5px;
+    }
+}
+
+.country-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: $Main-font;
+    padding-left: 24px;
+
+    &__text{
+        color:$Light-theme-color-text;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+
+    &-group {
+        flex-basis: 104px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        color: var(--colors-grey-950, rgba(17, 21, 23, 1));
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0px;
+
+    }
+}
